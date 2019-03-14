@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Name Generator</title>
+	<meta name="description" content="Game generator for the Gurr" />
+
+
+
+	<!-- The Generator script. You can move the script to an external file for better overview -->
+	<script type="text/javascript">
+	/*  Online Name Generators v.1.0 script is  made by Niels Gamborg webmaster at online-generator.com.
+	*    The script is  free (as in "free speech" and also as in "free beer") in anyway. Use it after you own likings.
+	*    Peace and love. :)
+	*/
+		function hisGenerator(){
+			// Add your own words to the wordlist. Be carefull to obey the showed syntax
+
+      var wordlist1 = ["Cool","Masked","Bloody","Lame","Big","Stupid","Drunk","Rotten",
+							"Blue","Black","White","Red","Purple","Golden","Silver","Abardon","Acaman","Achard","Ackmard","Agon","Agnar","Abdun","Aidan","Airis","Aldaren","Alderman","Alkirk","Amerdan","Anfarc","Aslan","Actar","Atgur","Atlin","Aldan","Badek","Baduk","Bedic","Beeron","Bein","Bithon","Bohl","Boldel","Bolrock","Bredin","Bredock","Breen","tristan","Bydern","Cainon","Calden","Camon","Cardon","Casdon","Celthric","Cevelt","Chamon","Chidak","Cibrock","Cipyar","Colthan","Connell","Cordale","Cos","Cyton","Daburn","Dawood","Dak","Dakamon","Darkboon","Dark","Darg","Darmor","Darpick","Dask","Deathmar","Derik","Dismer","Dokohan","Doran","Dorn","Dosman","Draghone","Drit","Driz","Drophar","Durmark","Dusaro","Eckard","Efar","Egmardern","Elvar","Elmut","Eli","Elik","Elson","Elthin","Elbane","Eldor","Elidin","Eloon","Enro","Erik","Erim","Eritai","Escariet","Espardo","Etar","Eldar","Elthen","Etran","Eythil","Fearlock","Fenrirr","Fildon","Firdorn","Florian","Folmer","Fronar","Fydar","Gai","Galin","Galiron","Gametris","Gauthus","Gehardt","Gemedes","Gefirr","Gibolt","Geth","Gom","Gosform","Gothar","Gothor","Greste","Grim","Gryni","Gundir","Gustov","Halmar","Haston","Hectar","Hecton","Helmon","Hermedes","Hezaq","Hildar","Idon","Ieli","Ipdorn","Ibfist","Iroldak","Ixen","Ixil","Izic","Jamik","Jethol","Jihb","Jibar","Jhin","Julthor","Justahl","Kafar","Kaldar","Kelar","Keran","Kib","Kilden","Kilbas","Kildar","Kimdar","Kilder","Koldof","Kylrad","Lackus","Lacspor","Lahorn","Laracal","Ledal","Leith","Lalfar","Lerin","Letor","Lidorn","Lich","Loban","Lox","Ludok","Ladok","Lupin","Lurd","Mardin","Markard","Merklin","Mathar","Meldin","Merdon","Meridan","Mezo","Migorn","Milen","Mitar","Modric","Modum","Madon","Mafur","Mujardin","Mylo","Mythik","Nalfar","Nadorn","Naphazw","Neowald","Nildale","Nizel","Nilex","Niktohal","Niro","Nothar","Nathon","Nadale","Nythil","Ozhar","Oceloth","Odeir","Ohmar","Orin","Oxpar","Othelen","Padan","Palid","Palpur","Peitar","Pendus","Penduhl","Pildoor","Puthor","Phar","Phalloz","Qidan","Quid","Qupar","Randar","Raydan","Reaper","Relboron","Riandur","Rikar","Rismak","Riss","Ritic","Ryodan","Rysdan","Rythen","Rythorn","Sabalz","Sadaron","Safize","Samon","Samot","Secor","Sedar","Senic","Santhil","Sermak","Seryth","Seth","Shane","Shard","Shardo","Shillen","Silco","Sildo","Silpal","Sithik","Soderman","Sothale","Staph","Suktar","zuth","Sutlin","Syr","Syth","Sythril","Talberon","Telpur","Temil","Tamilfist","Tempist","Teslanar","Tespan","Tesio","Thiltran","Tholan","Tibers","Tibolt","Thol","Tildor","Tilthan","Tobaz","Todal","Tothale","Touck","Tok","Tuscan","Tusdar","Tyden","Uerthe","Uhmar","Uhrd","Updar","Uther","Vacon","Valker","Valyn","Vectomon","Veldar","Velpar","Vethelot","Vildher","Vigoth","Vilan","Vildar","Vi","Vinkol","Virdo","Voltain","Wanar","Wekmar","Weshin","Witfar","Wrathran","Waytel","Wathmon","Wider","Wyeth","Xandar","Xavor","Xenil","Xelx","Xithyl","Yerpal","Yesirn","Ylzik","Zak","Zek","Zerin","Zestor","Zidar","Zigmal","Zilex","Zilz","Zio","Zotar","Zutar","Zytan"];
+
+      var wordlist2 = ["da","di","de","do","du","dae","dia","dea","doa","dua"];    // First born through 10th born
+
+      var wordlist3 = ["Hamster","Moose","Lama","Duck","Bear","Eagle","Tiger",
+							"Rocket","Bullet","Knee","Foot","Hand","Abardon","Acaman","Achard","Ackmard","Agon","Agnar","Aldan","Abdun","Aidan","Airis","Aldaren","Alderman","Alkirk","Amerdan","Anfarc","Aslan","Actar","Atgur","Atlin","Badek","Baduk","Bedic","Beeron","Bein","Bithon","Bohl","Boldel","Bolrock","Bredin","Bredock","Breen","tristan","Bydern","Cainon","Calden","Camon","Cardon","Casdon","Celthric","Cevelt","Chamon","Chidak","Cibrock","Cipyar","Colthan","Connell","Cordale","Cos","Cyton","Daburn","Dawood","Dak","Dakamon","Darkboon","Dark","Darmor","Darpick","Dask","Deathmar","Derik","Dismer","Dokohan","Doran","Dorn","Dosman","Draghone","Drit","Driz","Drophar","Durmark","Dusaro","Eckard","Efar","Egmardern","Elvar","Elmut","Eli","Elik","Elson","Elthin","Elbane","Eldor","Elidin","Eloon","Enro","Erik","Erim","Eritai","Escariet","Espardo","Etar","Eldar","Elthen","Etran","Eythil","Fearlock","Fenrirr","Fildon","Firdorn","Florian","Folmer","Fronar","Fydar","Gai","Galin","Galiron","Gametris","Gauthus","Gehardt","Gemedes","Gefirr","Gibolt","Geth","Gom","Gosform","Gothar","Gothor","Greste","Grim","Gryni","Gundir","Gustov","Halmar","Haston","Hectar","Hecton","Helmon","Hermedes","Hezaq","Hildar","Idon","Ieli","Ipdorn","Ibfist","Iroldak","Ixen","Ixil","Izic","Jamik","Jethol","Jihb","Jibar","Jhin","Julthor","Justahl","Kafar","Kaldar","Kelar","Keran","Kib","Kilden","Kilbas","Kildar","Kimdar","Kilder","Koldof","Kylrad","Lackus","Lacspor","Lahorn","Laracal","Ledal","Leith","Lalfar","Lerin","Letor","Lidorn","Lich","Loban","Lox","Ludok","Ladok","Lupin","Lurd","Mardin","Markard","Merklin","Mathar","Meldin","Merdon","Meridan","Mezo","Migorn","Milen","Mitar","Modric","Modum","Madon","Mafur","Mujardin","Mylo","Mythik","Nalfar","Nadorn","Naphazw","Neowald","Nildale","Nizel","Nilex","Niktohal","Niro","Nothar","Nathon","Nadale","Nythil","Ozhar","Oceloth","Odeir","Ohmar","Orin","Oxpar","Othelen","Padan","Palid","Palpur","Peitar","Pendus","Penduhl","Pildoor","Puthor","Phar","Phalloz","Qidan","Quid","Qupar","Randar","Raydan","Reaper","Relboron","Riandur","Rikar","Rismak","Riss","Ritic","Ryodan","Rysdan","Rythen","Rythorn","Sabalz","Sadaron","Safize","Samon","Samot","Secor","Sedar","Senic","Santhil","Sermak","Seryth","Seth","Shane","Shard","Shardo","Shillen","Silco","Sildo","Silpal","Sithik","Soderman","Sothale","Staph","Suktar","zuth","Sutlin","Syr","Syth","Sythril","Talberon","Telpur","Temil","Tamilfist","Tempist","Teslanar","Tespan","Tesio","Thiltran","Tholan","Tibers","Tibolt","Thol","Tildor","Tilthan","Tobaz","Todal","Tothale","Touck","Tok","Tuscan","Tusdar","Tyden","Uerthe","Uhmar","Uhrd","Updar","Uther","Vacon","Valker","Valyn","Vectomon","Veldar","Velpar","Vethelot","Vildher","Vigoth","Vilan","Vildar","Vi","Vinkol","Virdo","Voltain","Wanar","Wekmar","Weshin","Witfar","Wrathran","Waytel","Wathmon","Wider","Wyeth","Xandar","Xavor","Xenil","Xelx","Xithyl","Yerpal","Yesirn","Ylzik","Zak","Zek","Zerin","Zestor","Zidar","Zigmal","Zilex","Zilz","Zio","Zotar","Zutar","Zytan"]
+
+      var wordlist4 = ["Mede","Ud","Oc","Ro","Ur","Or","Th","Ed"];  // Clans 1st through 8th
+
+
+			// Random numbers are made
+      var randomNumber1 = parseInt(Math.random() * wordlist1.length);
+      var randomNumber2 = parseInt(Math.random() * wordlist2.length);
+      var randomNumber3 = parseInt(Math.random() * wordlist3.length);
+      var randomNumber4 = parseInt(Math.random() * wordlist4.length);
+      var name = wordlist1[randomNumber1] + " " + wordlist2[randomNumber2] + " " + wordlist3[randomNumber3] + "'" + wordlist4[randomNumber4];
+
+			//alert(name); //Remove first to slashes to alert the name
+
+			//If there's already a name it is removed
+			if(document.getElementById("result")){
+				document.getElementById("placeholder").removeChild(document.getElementById("result"));
+			}
+			// A div element is created to show the generated name. The Name is added as a textnode. Textnode is added to the placeholder.
+			var element = document.createElement("div");
+			element.setAttribute("id", "result");
+			element.appendChild(document.createTextNode(name));
+			document.getElementById("placeholder").appendChild(element);
+		}
+    function herGenerator(){
+			// Add your own words to the wordlist. Be carefull to obey the showed syntax
+
+      var wordlist1 = ["Cool","Masked","Bloody","Lame","Big","Stupid","Drunk","Rotten",
+							"Blue","Black","White","Red","Purple","Golden","Silver","Acele","Acholate","Ada","Adiannon","Adorra","Ahanna","Akara","Akassa","Akia","Amara","Amarisa","Amarizi","Ana","Andonna","Ariannona","Arina","Arryn","Asada","Awnia","Ayne","Basete","Bathelie","Bethel","Brana","Brynhilde","Calene","Calina","Celestine","Corda","Enaldie","Enoka","Enoona","Errinaya","Fayne","Frederika","Frida","Gvene","Gwethana","Helenia","Hildandi","Helvetica","Idona","Irina","Irene","Illia","Irona","Justalyne","Kassina","Kilia","Kressara","Laela","Laenaya","Lelani","Luna","Linyah","Lyna","Lynessa","Mehande","Melisande","Midiga","Mirayam","Mylene","Naria","Narisa","Nelena","Nimaya","Nymia","Ochala","Olivia","Onathe","Parthinia","Philadona","Prisane","Rhyna","Rivatha","Ryiah","Sanata","Sathe","Senira","Sennetta","Serane","Sevestra","Sidara","Sidathe","Sina","Sunete","Synestra","Sythini","zena","Tabithi","Tomara","Teressa","Tonica","Thea","Teressa","Urda","Usara","Useli","Unessa","ursula","Venessa","Wanera","Wellisa","yeta","Ysane","Yve","Yviene","Zana","Zathe","Zecele","Zenobe","Zema","Zestia","Zilka","Zoucka","Zona","Zyneste","Zynoa"];
+
+      var wordlist2 = ["da","di","de","do","du","dae","dia","dea","doa","dua"];    // First born through 10th born
+
+      var wordlist3 = ["Hamster","Moose","Lama","Duck","Bear","Eagle","Tiger",
+							"Rocket","Bullet","Knee","Foot","Hand","Abardon","Acaman","Achard","Ackmard","Agon","Agnar","Aldan","Abdun","Aidan","Airis","Aldaren","Alderman","Alkirk","Amerdan","Anfarc","Aslan","Actar","Atgur","Atlin","Badek","Baduk","Bedic","Beeron","Bein","Bithon","Bohl","Boldel","Bolrock","Bredin","Bredock","Breen","tristan","Bydern","Cainon","Calden","Camon","Cardon","Casdon","Celthric","Cevelt","Chamon","Chidak","Cibrock","Cipyar","Colthan","Connell","Cordale","Cos","Cyton","Daburn","Dawood","Dak","Dakamon","Darkboon","Dark","Darmor","Darpick","Dask","Deathmar","Derik","Dismer","Dokohan","Doran","Dorn","Dosman","Draghone","Drit","Driz","Drophar","Durmark","Dusaro","Eckard","Efar","Egmardern","Elvar","Elmut","Eli","Elik","Elson","Elthin","Elbane","Eldor","Elidin","Eloon","Enro","Erik","Erim","Eritai","Escariet","Espardo","Etar","Eldar","Elthen","Etran","Eythil","Fearlock","Fenrirr","Fildon","Firdorn","Florian","Folmer","Fronar","Fydar","Gai","Galin","Galiron","Gametris","Gauthus","Gehardt","Gemedes","Gefirr","Gibolt","Geth","Gom","Gosform","Gothar","Gothor","Greste","Grim","Gryni","Gundir","Gustov","Halmar","Haston","Hectar","Hecton","Helmon","Hermedes","Hezaq","Hildar","Idon","Ieli","Ipdorn","Ibfist","Iroldak","Ixen","Ixil","Izic","Jamik","Jethol","Jihb","Jibar","Jhin","Julthor","Justahl","Kafar","Kaldar","Kelar","Keran","Kib","Kilden","Kilbas","Kildar","Kimdar","Kilder","Koldof","Kylrad","Lackus","Lacspor","Lahorn","Laracal","Ledal","Leith","Lalfar","Lerin","Letor","Lidorn","Lich","Loban","Lox","Ludok","Ladok","Lupin","Lurd","Mardin","Markard","Merklin","Mathar","Meldin","Merdon","Meridan","Mezo","Migorn","Milen","Mitar","Modric","Modum","Madon","Mafur","Mujardin","Mylo","Mythik","Nalfar","Nadorn","Naphazw","Neowald","Nildale","Nizel","Nilex","Niktohal","Niro","Nothar","Nathon","Nadale","Nythil","Ozhar","Oceloth","Odeir","Ohmar","Orin","Oxpar","Othelen","Padan","Palid","Palpur","Peitar","Pendus","Penduhl","Pildoor","Puthor","Phar","Phalloz","Qidan","Quid","Qupar","Randar","Raydan","Reaper","Relboron","Riandur","Rikar","Rismak","Riss","Ritic","Ryodan","Rysdan","Rythen","Rythorn","Sabalz","Sadaron","Safize","Samon","Samot","Secor","Sedar","Senic","Santhil","Sermak","Seryth","Seth","Shane","Shard","Shardo","Shillen","Silco","Sildo","Silpal","Sithik","Soderman","Sothale","Staph","Suktar","zuth","Sutlin","Syr","Syth","Sythril","Talberon","Telpur","Temil","Tamilfist","Tempist","Teslanar","Tespan","Tesio","Thiltran","Tholan","Tibers","Tibolt","Thol","Tildor","Tilthan","Tobaz","Todal","Tothale","Touck","Tok","Tuscan","Tusdar","Tyden","Uerthe","Uhmar","Uhrd","Updar","Uther","Vacon","Valker","Valyn","Vectomon","Veldar","Velpar","Vethelot","Vildher","Vigoth","Vilan","Vildar","Vi","Vinkol","Virdo","Voltain","Wanar","Wekmar","Weshin","Witfar","Wrathran","Waytel","Wathmon","Wider","Wyeth","Xandar","Xavor","Xenil","Xelx","Xithyl","Yerpal","Yesirn","Ylzik","Zak","Zek","Zerin","Zestor","Zidar","Zigmal","Zilex","Zilz","Zio","Zotar","Zutar","Zytan"]
+
+      var wordlist4 = ["Mede","Ud","Oc","Ro","Ur","Or","Th","Ed"];  // Clans 1st through 8th
+
+
+			// Random numbers are made
+      var randomNumber1 = parseInt(Math.random() * wordlist1.length);
+      var randomNumber2 = parseInt(Math.random() * wordlist2.length);
+      var randomNumber3 = parseInt(Math.random() * wordlist3.length);
+      var randomNumber4 = parseInt(Math.random() * wordlist4.length);
+      var name = wordlist1[randomNumber1] + " " + wordlist2[randomNumber2] + " " + wordlist3[randomNumber3] + "'" + wordlist4[randomNumber4];
+
+			//alert(name); //Remove first to slashes to alert the name
+
+			//If there's already a name it is removed
+			if(document.getElementById("result")){
+				document.getElementById("placeholder").removeChild(document.getElementById("result"));
+			}
+			// A div element is created to show the generated name. The Name is added as a textnode. Textnode is added to the placeholder.
+			var element = document.createElement("div");
+			element.setAttribute("id", "result");
+			element.appendChild(document.createTextNode(name));
+			document.getElementById("placeholder").appendChild(element);
+		}
+	</script>
+
+
+
+	<!-- Stylesheet. Change styles here. You can move the stylesheet to a extern file for better overview -->
+	<style type="text/css">
+		body{font-family: arial, serif; text-align: center; background-color: #a2eae2;}
+		#wrapper{border-left:1px solid #cccccc;border-right:1px solid #cccccc;margin:0 auto;padding: 0 20px;width: 700px}
+		#hisGenerator{background:#e9f3f6;border:1px solid #cccccc;margin:30px 0;font-size:28px;font-weight:bold;padding:50px 0 20px;text-align:center;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+		#hisGenerator input{font-size:16px;font-weight:normal;margin-top: 30px}
+		#footer{font-size: 10px; color: #999; margin: 30px 0 0 0;}
+		#footer a{color:#999}
+	</style>
+
+
+</head>
+<body onload="hisGenerator()">
+	<div id="wrapper">
+
+		<!-- Change the text to your needs -->
+		<h1>Name Generator for the Gurr</h1>
+		<p>Better rules coming!
+		</p>
+
+		<!-- The generator result and button. Change text on the button by changing button value. Be carefull changing ID's in this part -->
+		<div id="hisGenerator" >
+			<div id="placeholder"></div>
+			<input type="button" value="His Name Magic" onclick="hisGenerator()" />
+      <input type="button" value="Her Name Magic" onclick="herGenerator()" />
+    </div>
+
+		<!-- The footer here.-->
+		<div id="footer">
+		<p>Developed with love for GK ❤️.</p>
+		</div>
+	</div>
+</body>
+</html>
